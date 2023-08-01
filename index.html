@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Raise your ticket</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <div class="title">Raise Ticket</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+    
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+        
+          <div class="input-box">
+            <span class="details">Topics</span>
+            <input type="text" placeholder="Enter topics" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Project</span>
+            <input type="text" placeholder="Enter project" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Subject</span>
+            <input type="text" placeholder="Enter subject" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Priority</span>
+            <select required class="priority">
+              <option value="" disabled selected>Select priority</option>
+              <option value="Low">Low</option>
+              <option value="Medium">Medium</option>
+              <option value="High">High</option>
+            </select>
+          </div>
+          <div class="input-box ">
+            <span class="details">Attachment</span>
+            <label class="file-label">
+              <input type="file" class="file" required>
+              <span class="file-text">Choose File</span>
+            </label>
+          </div>
+        </div> 
+        <div class="input-box full-width">
+          <span class="details">Message</span>
+          <textarea placeholder="Enter your message" required></textarea>
+        </div>
+        <div class="button">
+          <input type="submit" value="Raise Your Ticket">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
